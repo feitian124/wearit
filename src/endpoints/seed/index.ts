@@ -400,7 +400,7 @@ export const seed = async ({
 }
 
 async function fetchFileByURL(url: string): Promise<File> {
-  const res = await fetch(url, {
+  const res = await fetch('https://coolshell.cn/wp-content/uploads/2023/02/chatgpt-406x270.jpg', {
     credentials: 'include',
     method: 'GET',
   })
